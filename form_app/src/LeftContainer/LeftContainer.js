@@ -39,7 +39,7 @@ const LeftContainer = () => {
       if (response.ok) {
         setMessage("Form Submitted");
       } else {
-        setMessage("hello");
+        setMessage("Error submitting form");
       }
     } catch (error) {
       setMessage("Error submitting form");
