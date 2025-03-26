@@ -1,0 +1,28 @@
+
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-info button {
+  background: #f0f0f0;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}

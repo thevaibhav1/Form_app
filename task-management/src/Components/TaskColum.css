@@ -1,0 +1,10 @@
+.task-column {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 200px;
+}
+
+.task-column h3 {
+  margin: 0 0 10px;
+}

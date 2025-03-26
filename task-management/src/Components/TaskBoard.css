@@ -1,0 +1,23 @@
+.task-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-task-btn {
+  background: #6a0dad;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.columns {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  
+}
