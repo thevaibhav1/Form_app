@@ -1,0 +1,81 @@
+/* General reset and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container for the entire carousel */
+.carousel-container {
+  width: 350px; /* Adjust width to suit */
+  margin: 40px auto;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* The main carousel display box */
+.carousel {
+  display: flex;
+  transition: transform 0.7s ease-in-out;
+}
+
+/* Styling for each carousel item */
+.carousel-item {
+  width: 100%;
+  flex-shrink: 0; /* Prevent shrinking */
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  padding: 30px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Carousel control buttons */
+.carousel-controls {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  bottom: 15px;
+  padding: 0 25px;
+  z-index: 10;
+}
+
+.carousel-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  opacity: 0.7;
+}
+
+.carousel-btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+  opacity: 1;
+}
+
+/* Position for previous and next buttons */
+.prev-btn {
+  left: 0;
+}
+
+.next-btn {
+  right: 0;
+}
+
+/* Add subtle shadow to the button */
+.carousel-btn:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
